@@ -2,5 +2,12 @@
   <span>
     {{title}}
   </span>
+  <span fxFlex></span>
+  <button md-icon-button [mdMenuTriggerFor]="signoutMenu" *ngIf="showSignOut">
+    <i class="material-icons">more_vert</i>
+  </button>
+  <md-menu #signoutMenu="mdMenu" [overlapTrigger]="false">
+    <button md-menu-item (click)="signOut()"> Sign out</button>
+  </md-menu>
 </md-toolbar>
 <router-outlet></router-outlet>

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'My Password\'s Keeper!';
+  showSignOut = false;
+
+  signOut(): void {
+    console.log("Signing out!")
+  }
 }
