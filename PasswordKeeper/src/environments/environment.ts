@@ -11,5 +11,6 @@ export const environment = {
     databaseURL: "https://siscodr-passwordkeeper.firebaseio.com",
     storageBucket: "siscodr-passwordkeeper.appspot.com",
     messagingSenderId: "740396346316"
-  }
+  },
+  rosefireRegistryToken: "a197d49b-a5b9-49fe-aef9-c4e36ce0da66"
 };
