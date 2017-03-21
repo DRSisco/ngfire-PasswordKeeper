@@ -9,10 +9,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { MaterialModule } from '@angular/material';
 import { AngularFireModule } from 'angularfire2';
 import { environment } from "../environments/environment";
+import { MainComponent } from './+main/main.component';
+import { SigninComponent } from './+signin/signin.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MainComponent,
+    SigninComponent
   ],
   imports: [
     BrowserModule,
