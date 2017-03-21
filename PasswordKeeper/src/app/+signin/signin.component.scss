@@ -1,0 +1,27 @@
+$horizontal-card-padding: 30px;
+md-card {
+    padding:0px;
+    md-card-title {
+        background-color: #089889;
+        padding: 15px $horizontal-card-padding;
+        margin: 0px;
+        h2 {
+            margin: 0;
+            font-weight: normal;
+            color: white;
+        }
+    }
+    md-card-content {
+        padding: $horizontal-card-padding;
+        color: rgba(0,0,0,0.7);
+        font-size: 18px;
+        button {
+            background-color: #800000;
+            color: white;
+            font-size: 18px;
+            font-weight: normal;
+            margin: 20px auto;
+            padding: 5px 20px;
+        }
+    }
+}
