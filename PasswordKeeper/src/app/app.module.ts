@@ -20,6 +20,9 @@ import { PasswordDialogComponent } from './password-dialog/password-dialog.compo
     SigninComponent,
     PasswordDialogComponent
   ],
+  entryComponents: [
+    PasswordDialogComponent
+  ],
   imports: [
     BrowserModule,
     FormsModule,
