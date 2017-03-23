@@ -39,6 +39,10 @@ export class MainComponent implements OnInit, OnDestroy {
     })
   }
 
+  showAddPasswordDialog(){
+    console.log("TODO")
+  }
+
   ngOnInit() {
   }
 
