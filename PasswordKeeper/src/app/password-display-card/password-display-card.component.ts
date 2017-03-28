@@ -7,6 +7,7 @@ import { Password } from "../password.model";
   styleUrls: ['./password-display-card.component.scss', '../shared/common.scss']
 })
 export class PasswordDisplayCardComponent implements OnInit {
+  isExpanded: true
 
   @Input() password: Password;
 
